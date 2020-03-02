@@ -1,0 +1,20 @@
+CLASS zcl_test_hello_world_1 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    INTERFACES if_oo_adt_classrun.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_TEST_HELLO_WORLD_1 IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+    out->write('Hello world!').
+  ENDMETHOD.
+ENDCLASS.
